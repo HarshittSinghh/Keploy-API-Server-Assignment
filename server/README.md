@@ -98,7 +98,7 @@ curl -X POST http://localhost:3000/books \
 
 ## ✍️ Author
 
-**Your Name**  
+**Harshit Kumar Singh**  
 [GitHub Profile](https://github.com/HarshittSinghh)
 
 ---
