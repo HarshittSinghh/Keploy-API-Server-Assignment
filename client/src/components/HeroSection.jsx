@@ -7,7 +7,9 @@ export default function HeroSection() {
     <div className="hero-container">
       <div className="hero-overlay"></div>
       <div className="hero-text">
+        <center>
         <FaBook className="logo" style={{fontSize:'80px'}} />
+        </center>
         <h1>Bookly</h1>
         <h2 className="hero-subheading">Your Personal Library Management System</h2>
         {/* <p>Add, view, and delete books effortlessly.</p> */}

@@ -15,7 +15,7 @@ const BookList = ({ fetchBooks, books }) => {
 
   return (
     <div className="booklist-container">
-      <h2 className="booklist-title"> <FaBook className="logo" style={{fontSize:'25px'}} /> Book List</h2>
+      <h2 className="booklist-title">Book List</h2>
 
       {books.length === 0 ? (
         <p className="no-books">No books found.</p>
