@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import { FaBook } from 'react-icons/fa';
-
+import { FaArrowDown } from 'react-icons/fa';
 export default function HeroSection() {
   return (
     <div className="hero-container">
@@ -13,11 +13,12 @@ export default function HeroSection() {
         <h1>Bookly</h1>
         <h2 className="hero-subheading">Your Personal Library Management System</h2>
         {/* <p>Add, view, and delete books effortlessly.</p> */}
+        
         <button
           className="hero-btn"
           onClick={() => window.scrollTo({ top: 600, behavior: 'smooth' })}
         >
-          Scroll Down
+          <FaArrowDown className="arrow-icon" style={{fontSize:'20px'}} />
         </button>
       </div>
     </div>

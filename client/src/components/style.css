@@ -88,6 +88,18 @@
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.3s ease;
+  animation: fadeIn 1s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(20px);
+  }
 }
 
 .hero-btn:hover {
@@ -194,16 +206,16 @@
   max-width: 900px;
   margin: 40px auto;
   padding: 20px;
-  background-color: #ffffff;
+  background: linear-gradient(to top, #fff, #f4f4f4, #dddd);
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .booklist-title {
   text-align: center;
-  font-size: 28px;
+  font-size: 60px;
   margin-bottom: 20px;
-  color: #333;
+  color: #00b894;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -236,12 +248,20 @@
   color: #333;
 }
 
+.book-table tr:nth-child(odd){
+  background-color: #fff;
+}
 .book-table tr:nth-child(even) {
-  background-color: #fafafa;
+  background-color: #f2f2f2;
 }
 
 .book-table tr:hover {
-  background-color: #f1f1f1;
+  background-color:  #e0e0e0;;
+  cursor: pointer;
+}
+.book-table tr:nth-child(even):hover{
+  background-color: #e0e0e0;
+
 }
 
 .delete-button {
